@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script type="module" src="script.js"></script>
+
+    <title>Webová aplikace</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hlasování</h1>
+      <form id="form">
+        <div class="form__field">
+          <label class="form__label">Jméno hlasujícího:</label>
+          <input class="form__input" type="text" id="voter" name="voter">
+        </div>
+        <input class="form__button" type="submit" value="Poslat hlas">
+      </form>
+      <p id="zprava"></p>
+    </div>
+  </body>
+</html>
